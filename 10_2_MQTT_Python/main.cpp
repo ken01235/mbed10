@@ -70,7 +70,7 @@
       MQTT::Client<MQTTNetwork, Countdown> client(mqttNetwork);
 
       //TODO: revise host to your IP
-      const char* host = "192.168.43.177";
+      const char* host = "172.20.3.244";
       printf("Connecting to TCP network...\r\n");
 
       SocketAddress sockAddr;
